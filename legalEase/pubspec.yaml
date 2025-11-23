@@ -1,0 +1,56 @@
+name: legal_ease_app
+description: LegalEase - frontend-only Flutter app example.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.9.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.0.0
+  flutter_svg: ^2.0.7
+  fl_chart: ^0.68.0
+  http: ^1.2.2
+  url_launcher: ^6.3.0
+  supabase_flutter: ^2.0.0
+  flutter_dotenv: ^5.2.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.3
+  file_picker: ^8.0.3
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/gavel.png
+    - assets/civil.png
+    - assets/criminal.png
+    - assets/pi.png
+    - assets/taxation.png
+    - assets/business.png
+    - assets/google.png
+    - assets/icon.png
+    - .env
+
+flutter_launcher_icons:
+  image_path: assets/icon.png
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: assets/icon.png
+    background_color: "#0175C2"
+    theme_color: "#0175C2"
+

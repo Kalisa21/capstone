@@ -1,0 +1,15 @@
+pandas
+numpy
+# Require a sentence-transformers version that uses hf_hub_download instead of deprecated cached_download
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+# Ensure huggingface-hub new API; cached_download removed in newer versions
+huggingface-hub>=0.15.1
+scikit-learn
+torch
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+# Optional: Use FAISS where supported; skipped on Windows
+faiss-cpu; sys_platform != "win32"
