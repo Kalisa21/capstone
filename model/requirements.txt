@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+torch
+faiss-cpu
+scikit-learn
+pydantic
+numpy
+pickle-mixin
