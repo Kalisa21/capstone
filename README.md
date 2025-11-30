@@ -5,8 +5,6 @@
 # LegalEase App
 
 
-api url: https://github.com/Kalisa21/Mission-capstone---legalEase.git 
-
 apk : https://drive.google.com/file/d/1bVAeT-eDoV-xLBszljLjb6umSw9-zx5A/view?usp=sharing   
 
 A Flutter-based legal knowledge  application with an integrated AI chatbot.
@@ -39,9 +37,6 @@ LegalEase is a comprehensive legal app designed to help users access legal infor
 - **FAQ Section**: Expandable frequently asked questions
 - **External Resources**: Direct links to Rwanda legal resources
 - **UI Reference**: Native implementation of complex UI patterns
-<img width="1080" height="2400" alt="Screenshot_1761339994" src="https://github.com/user-attachments/assets/664c700c-6565-468b-b701-8a5068a3b81b" />
-
-<img width="1080" height="2400" alt="Screenshot_1761340091" src="https://github.com/user-attachments/assets/6e066dfa-75cd-49b5-b32b-09d7db9ebbbc" />
 
 ##  Tech Stack
 
@@ -53,7 +48,7 @@ LegalEase is a comprehensive legal app designed to help users access legal infor
 - **Charts**: charts and gauges
 - **Navigation**: Named routes with MaterialPageRoute
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Flutter SDK (>=3.19.0)
 - Dart SDK (^3.9.0)
@@ -115,7 +110,7 @@ Expected response:
 }
 ```
 
-## 📱 Building for Release
+##  Building for Release
 
 ### Android APK
 
@@ -264,7 +259,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    - Ensure APK is properly signed for release builds
    - Check device compatibility (API level, architecture)
 
-## 📞 Support
+##  Support
 
 For support and questions:
 - Create an issue in the GitHub repository
